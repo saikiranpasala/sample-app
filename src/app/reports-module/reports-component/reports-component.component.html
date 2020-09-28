@@ -1,1 +1,23 @@
-<p>reports-component works!</p>
+<div class="large-3">
+    <h4>Total tests for Aug-2020</h4>
+    <mat-card class="donut-chart mat-elevation-z8">
+        <nvd3 [options]="chartsConfig.donutChartOptions" [data]="monthlyChartData"></nvd3>
+    </mat-card>
+</div>
+<div class="large-3">
+    <h4>Last 3 months trend</h4>
+    <mat-card class="bar-chart mat-elevation-z8">
+        <nvd3 [options]="chartsConfig.multiBarChartOptions" [data]="chartsConfig.multiBarChartData"></nvd3>
+    </mat-card>
+</div>
+<div class="large-3">
+    <h4>Percentage Completion</h4>
+    <mat-card class="bar-chart mat-elevation-z8">
+        <nvd3 [options]="chartsConfig.completionChartOptions" [data]="chartsConfig.completionChartData"></nvd3>
+    </mat-card>
+</div>
+<mat-list class="margin-3">
+    <mat-list-item>Test result analysis for the current month in comparision to the past three months trend.
+    </mat-list-item>
+    <mat-divider></mat-divider>
+</mat-list>

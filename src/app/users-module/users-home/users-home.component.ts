@@ -29,7 +29,7 @@ export class UsersComponent {
       this.sharedDataService.closeLoadingSpinner();
       this.dataSource = new MatTableDataSource(response);
       this.dataSource.sort = this.sort;
-      this.sharedDataService.openSnackBar('Users data retrived successfully.')
+      this.sharedDataService.openSnackBar('Users data retrived successfully.', 5000)
     }, error => {
       this.sharedDataService.closeLoadingSpinner();
       this.sharedDataService.openSnackBar('Failed to get data. Please try again.', 15000)

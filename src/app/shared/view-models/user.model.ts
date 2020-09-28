@@ -1,3 +1,4 @@
+// View model for user data type.
 export interface UserModel {
     id: number;
     name: string;

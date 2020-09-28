@@ -1,0 +1,42 @@
+app-reports{
+    .donut-chart {
+        .nvd3.nv-pie path {
+            fill-opacity: 1 !important;
+        }
+        svg{
+            height: 250px !important;
+        }
+        .nv-label text {
+            font-size: 16px;
+            font-weight: bold;
+        }    
+    }
+    .bar-chart {   
+         .nvd3 {
+            .nv-controlsWrap {
+                display: none;
+            }
+         }
+        rect.nv-bar{
+           fill-opacity: 1 !important;
+         }        
+    }    
+    .large-3, .large-6 {
+        width: 30%;
+        margin-left: 3%;
+        margin-top: 3%;
+        text-align: center;
+        display:inline-block;        
+    }
+    .large-6{
+        width: 63%
+    }
+    .margin-3{
+        margin-left: 3%;
+        margin-right: 3%;        
+    }
+    .nv-axislabel{
+    font-weight: bold !important;
+    }
+    
+}

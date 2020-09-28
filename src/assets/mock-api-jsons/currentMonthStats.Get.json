@@ -1,0 +1,17 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "key": "Negative",
+            "y": 17
+        },
+        {
+            "key": "Positive",
+            "y": 2
+        },
+        {
+            "key": "Un-Matched",
+            "y": 6
+        }
+    ]
+}
