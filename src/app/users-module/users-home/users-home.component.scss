@@ -1,0 +1,23 @@
+
+table {
+    width: 100%;
+    min-height: 200px;
+    max-height: 300px;
+    overflow: auto;
+}
+th.mat-sort-header-sorted {
+    color: black;
+}
+.font-weight-500{
+    font-weight: 500;
+    font-size: 20px;
+}
+.actions {    
+    text-align: center;
+}
+.add-user{
+    text-align: right;
+}
+.results-panel {
+    margin: 20px !important;
+}

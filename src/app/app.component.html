@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <span>Sai's Test App - {{sharedDataService.currentView}}</span>
+    <span class="spacer"></span>
+    <button mat-button [routerLink]="'home'">Home</button>
+    <button mat-button [routerLink]="'users'">Users</button>
+    <button mat-button [routerLink]="'reports'">Reports</button>
+</mat-toolbar>
+
+<!-- Router outlet. Templates are replaced here. -->
+<router-outlet></router-outlet>
